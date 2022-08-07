@@ -1,5 +1,7 @@
 # Python omissions
-
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ignore plz artifacts
+plz-out/
