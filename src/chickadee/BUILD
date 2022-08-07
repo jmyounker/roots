@@ -5,3 +5,10 @@ python_binary(
     "//third_party/python:slack_sdk",
   ],
 )
+
+python_test(
+    name = "test",
+    srcs = ["main_test.py"],
+    deps = [":chickadee"],
+    test_runner = "pytest",
+)
