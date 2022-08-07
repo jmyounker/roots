@@ -10,5 +10,4 @@ python_test(
     name = "test",
     srcs = ["main_test.py"],
     deps = [":chickadee"],
-    test_runner = "pytest",
 )

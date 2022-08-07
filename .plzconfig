@@ -10,3 +10,5 @@
 
 [python]
 moduledir = third_party.python
+testrunner = pytest
+
