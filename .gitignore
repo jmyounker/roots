@@ -5,3 +5,6 @@ __pycache__/
 
 # Ignore plz artifacts
 plz-out/
+
+# Ignore the local pyenv
+.pyenv/
